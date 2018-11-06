@@ -1,0 +1,143 @@
+/* Login Page */
+
+    .page-template-login header,
+    .page-template-login footer,
+    .page-template-login #copyrightbar {
+        display: none;
+    }
+
+    .page-template-login #main {
+        margin: 0;
+        height: 100vh;
+        background-color: #f1f1f1;
+    }
+
+    #loginPanelOutter {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 500px;
+        width: 100%;
+    }
+
+    #loginPanelLogo {
+        text-align: center;
+    }
+
+    #loginPanel {
+        max-width: calc( 100% - 80px );
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #loginform p {
+        margin: 0 0 20px 0;
+    }
+
+    #loginform p.login-username label,
+    #loginform p.login-password label {
+        display: inline-block;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    #loginform p.login-username input,
+    #loginform p.login-password input {
+        display: inline-block;
+        width: calc( 100% -  2px );
+        height: 32px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+    }
+
+    #loginform p.login-submit {
+        margin-bottom: 0px;
+    }
+
+    #loginform p.login-submit input[type=submit] {
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 500;
+        border-style: none;
+        padding: 10px 40px;
+        background-image: linear-gradient(to right, #aa076b , #61045f);
+        font-family: proxima-nova, sans-serif;
+        transition: all 0.3s;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    #loginPanelAdditionalOptions {
+        text-align: center;
+
+    }
+
+    #loginPanelAdditionalOptions a {
+        text-decoration: none;
+        color: #61045f;
+        font-size: 16px;
+    }
+
+/* End Login Page */
+
+/* Registar Page */
+
+    .page-template-register {
+        background-color: #f1f1f1;
+    }
+
+    .page-template-register header,
+    .page-template-register footer,
+    .page-template-register #copyrightbar{
+        display: none;
+    }
+
+    .regFormInput label {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .regFormInput input {
+        display: inline-block;
+        width: calc( 100% -  2px );
+        height: 32px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+    }
+
+    .regFormSubmit #cadRegButton {
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 500;
+        border-style: none;
+        padding: 10px 40px;
+        background-image: linear-gradient(to right, #aa076b , #61045f);
+        font-family: proxima-nova, sans-serif;
+        transition: all 0.3s;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    #regFormTerms {
+        border-top: 1px solid #f1f1f1;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    #regFormTerms p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .regFormInput input.redRegBorader {
+        border-color: red;
+    }
+
+/* End Registar Page */
